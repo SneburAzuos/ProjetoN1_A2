@@ -4,17 +4,21 @@ listaUsuarios = []
 def alterarNome():
     print("fon")
     main()
-def removerUsuario():
-    print("fon")
+
+def removerUsuario(listaUsuarios):
+    nomeremovido = input("Digite o nome que deseja remover: ")
+
+    if(nomeremovido in listaUsuarios):
+        listaUsuarios.remove      
+    else:
+        print("O nome não está na lista")
     main()
     
-def verificarNome(listaUsuarios):
-    names = input("Digite um nome para pesquisar na lista: ")
-    if(listaUsuarios.cont(names)):
-       print(names in listaUsuarios)
+def verificarNome():
+    print("fon")
     main()
 
-def listarAlfabetica(listaUsuarios):
+def listarAlfabetica():
     print("fon")
     main()
 
